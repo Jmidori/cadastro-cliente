@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "9WHEAkaFTsimxHln+RdwJMk1lsZnqvDETZ1aG7YodQ8DeVECc2f0O9Uoo2vtfLKzoJzKj/h7vVSWc8eV+NgYZw==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\Juliane\\Documents\\git\\cadastro-cliente\\cadastro-cliente.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\Juliane\\.nuget\\packages\\newtonsoft.json\\12.0.3\\newtonsoft.json.12.0.3.nupkg.sha512"
+  ],
+  "logs": []
+}

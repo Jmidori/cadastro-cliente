@@ -1,0 +1,15 @@
+C:\Users\Juliane\Documents\git\cadastro-cliente\bin\Release\netcoreapp3.1\win-x64\cadastro-cliente.exe
+C:\Users\Juliane\Documents\git\cadastro-cliente\bin\Release\netcoreapp3.1\win-x64\cadastro-cliente.deps.json
+C:\Users\Juliane\Documents\git\cadastro-cliente\bin\Release\netcoreapp3.1\win-x64\cadastro-cliente.runtimeconfig.json
+C:\Users\Juliane\Documents\git\cadastro-cliente\bin\Release\netcoreapp3.1\win-x64\cadastro-cliente.runtimeconfig.dev.json
+C:\Users\Juliane\Documents\git\cadastro-cliente\bin\Release\netcoreapp3.1\win-x64\cadastro-cliente.dll
+C:\Users\Juliane\Documents\git\cadastro-cliente\bin\Release\netcoreapp3.1\win-x64\cadastro-cliente.pdb
+C:\Users\Juliane\Documents\git\cadastro-cliente\bin\Release\netcoreapp3.1\win-x64\Newtonsoft.Json.dll
+C:\Users\Juliane\Documents\git\cadastro-cliente\obj\Release\netcoreapp3.1\win-x64\cadastro-cliente.csprojAssemblyReference.cache
+C:\Users\Juliane\Documents\git\cadastro-cliente\obj\Release\netcoreapp3.1\win-x64\cadastro-cliente.AssemblyInfoInputs.cache
+C:\Users\Juliane\Documents\git\cadastro-cliente\obj\Release\netcoreapp3.1\win-x64\cadastro-cliente.AssemblyInfo.cs
+C:\Users\Juliane\Documents\git\cadastro-cliente\obj\Release\netcoreapp3.1\win-x64\cadastro-cliente.csproj.CoreCompileInputs.cache
+C:\Users\Juliane\Documents\git\cadastro-cliente\obj\Release\netcoreapp3.1\win-x64\cadastro-cliente.csproj.CopyComplete
+C:\Users\Juliane\Documents\git\cadastro-cliente\obj\Release\netcoreapp3.1\win-x64\cadastro-cliente.dll
+C:\Users\Juliane\Documents\git\cadastro-cliente\obj\Release\netcoreapp3.1\win-x64\cadastro-cliente.pdb
+C:\Users\Juliane\Documents\git\cadastro-cliente\obj\Release\netcoreapp3.1\win-x64\cadastro-cliente.genruntimeconfig.cache
