@@ -12,9 +12,8 @@ A implementação não precisa realizar persistência em um banco de dados ao in
 Deve ser considerado os requisitos e o protótipo em anexo.
 
   #### Anexos
-![](https://github.com/Jmidori/cadastro-cliente/tree/main/documentacao/REQUISITOS_CAD_CLIENTE.png)
-
-![](https://github.com/Jmidori/cadastro-cliente/tree/main/documentacao/PROTOTIPO_CAD_CLIENTE.png)
+![](/documentacao/REQUISITOS_CAD_CLIENTE.PNG) 
+![](/documentacao/PROTOTIPO_CAD_CLIENTE.png)
 
 ## Ponto de Partida
 
