@@ -106,7 +106,7 @@ namespace cadastro_cliente
 
                         for (int i = 0; i < qndDepte; i++)
                         {
-                            Console.WriteLine("Nome do parente* " + i + ":");
+                            Console.WriteLine("Nome do parente* " + (i+1) + ":");
                             cliente.DependenteCliente.Nome = Program.validaPreenchimento();
                             bool valorValido = false;
                             while(!valorValido)
