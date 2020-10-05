@@ -1,5 +1,4 @@
 ﻿using System;
-using System.Collections;
 using System.Collections.Generic;
 using Newtonsoft.Json;
 
@@ -15,6 +14,7 @@ namespace cadastro_cliente
             int opcao = 1;
             while (opcao>0 && opcao<4)
             {
+                 Console.WriteLine("\n\n");
                 Console.WriteLine("______________________________________________________________________________");
                 Console.WriteLine("\n                      CADASTRO DE CLIENTE");
                 Console.WriteLine("\nDigite:");
@@ -56,16 +56,14 @@ namespace cadastro_cliente
             if (!cliente.CPF.Equals("0"))   //¬_¬ 
             {
                 Console.WriteLine("Credito*: ");
-                decimal creditoToParse;
-                if (Decimal.TryParse(Program.validaPreenchimento(), out creditoToParse))
+                if (Decimal.TryParse(Program.validaPreenchimento(), out decimal creditoToParse))
                 { cliente.Credito = creditoToParse; }
 
                 bool respostaOk = false;
                 while (!respostaOk)
                 {
                     Console.WriteLine("Sexo* (Digite 1 para Masculino ou 2 para Feminino): ");
-                    int sexoToParse;
-                    if (Int32.TryParse(Program.validaPreenchimento(), out sexoToParse) && (sexoToParse == 1 || sexoToParse == 2))
+                    if (Int32.TryParse(Program.validaPreenchimento(), out int sexoToParse) && (sexoToParse == 1 || sexoToParse == 2))
                     {
                         cliente.Sexo = (Cliente.TipoSexo)sexoToParse;
                         respostaOk = true;
@@ -96,10 +94,9 @@ namespace cadastro_cliente
                 respostaOk = false;
                 while (!respostaOk)
                 {
-                    int qndDepte;
                     Console.WriteLine("Digite a quantidade de dependentes que serão cadastrados (min=0 max=2)*");
 
-                    if (Int32.TryParse(Console.ReadLine(), out qndDepte))
+                    if (Int32.TryParse(Console.ReadLine(), out int qndDepte))
                     {
                         if (qndDepte > 2 || qndDepte < 0)
                         {
@@ -115,9 +112,8 @@ namespace cadastro_cliente
                             while(!valorValido)
                             {
                                 Console.WriteLine("Parentesco* (Digite 1 para conjuge e 2 para filho)");
-                                int parentescoToParse;
                                 
-                                if (Int32.TryParse(Program.validaPreenchimento(), out parentescoToParse) && (parentescoToParse > 0 && parentescoToParse < 3))
+                                if (Int32.TryParse(Program.validaPreenchimento(), out int parentescoToParse) && (parentescoToParse > 0 && parentescoToParse < 3))
                                 {
                                     cliente.DependenteCliente.parentesco = (Cliente.Dependente.Parentesco)parentescoToParse;
                                     valorValido = true;
@@ -152,7 +148,6 @@ namespace cadastro_cliente
             {
                 Console.WriteLine("{0} - {1}", pair.Key, pair.Value);
             }
-            Console.WriteLine("______________________________________________________________________________");
             Console.WriteLine("\n\n");
         }
 
